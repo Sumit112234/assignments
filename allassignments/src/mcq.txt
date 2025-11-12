@@ -1,0 +1,48 @@
+MCQs
+
+Which library is commonly used for navigation in React applications?
+ ans -> React Router DOM
+
+What is the purpose of <BrowserRouter>?
+ ans -> Enables routing and keeps UI in sync with URL
+
+Which hook is used to navigate programmatically in React Router v6?
+ ans -> useNavigate
+
+Which component is used to define individual routes?
+ ans -> <Route>
+
+What does <NavLink> do differently from <Link>?
+ ans -> Applies an “active” class to the current link
+
+How do you handle undefined routes in React Router DOM?
+ ans -> Using <Route path="*">
+
+What hook helps you access URL parameters like /user/:id?
+ ans -> useParams
+
+What is the correct way to nest routes inside a parent route?
+ ans -> By placing <Route> elements inside another <Route>
+
+What does the useLocati ans -> hook return?
+ ans -> Information about the current URL (pathname, search, h ans ->
+
+What is one advantage of client-side routing in React apps?
+ ans -> Navigation occurs without full page reload
+
+Short Answer Questions
+
+What is the difference between <Link> and <NavLink> in React Router?
+ ans -> <Link> handles navigation, while <NavLink> adds an “active” class automatically to show the current active route.
+
+Explain the purpose of the useNaviga ans -> hook.
+ ans -> It allows navigation between routes programmatically without using link components.
+
+What are dynamic routes in React Router? Give an example.
+ ans -> Dynamic routes use parameters to render pages, e.g., /user/:id shows different content based on the id.
+
+How can you handle undefined or invalid routes in React?
+ ans -> Use <Route path="*"> to show a “404 Not Found” or custom error page.
+
+What is the use of the usePara ans -> hook?
+ ans -> It retrieves dynamic parameters from the URL, like getting the id from /product/:id.
