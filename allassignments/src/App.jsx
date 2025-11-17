@@ -3,8 +3,8 @@ import Mood from "./mood app/mood";
 import TeamFeedbackBoard from "./team-feedback-board/TeamFeedbackBoard";
 import WeatherDashboard from "./weather-app/WeatherDashboard";
 import UserManagement from "./user-management/UserManagement";
-// import Main from "./portfolio/Main";
-import Main from "./user-dashboard/Main";
+import Main from "./portfolio/Main";
+// import Main from "./user-dashboard/Main";
 
 export default function App() {
   
@@ -25,10 +25,10 @@ export default function App() {
     {/* <UserManagement/> */}
 
     {/* Portfolio Website 13-nov */}
-    {/* <Main/> */}
+    <Main/>
 
     {/* user dashboard 13-nov */}
-    <Main/>
+    {/* <Main/> */}
 
 
 
