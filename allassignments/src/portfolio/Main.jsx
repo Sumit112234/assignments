@@ -64,6 +64,7 @@ function Main() {
       <Routes>
         <Route path="/" element={<Home  userName="Sumit Baghel" 
             tagline="Hi! I'm a developer." />} />
+            {console.log(contactInfo)}
         <Route path="/projects" element={<Projects projectsList={projectsList} />} />
         <Route path="/contact" element={<Contact contactInfo={contactInfo} />} />
 

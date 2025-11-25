@@ -1,6 +1,6 @@
-export default function ContactInfo({ info }) {
+export default function ContactInfo(info ) {
 
-  console.log({info})
+  // console.log(info.contacT)
   return (
     <div>
       <h2 className="text-2xl font-bold text-gray-800 mb-4">Get in Touch</h2>
