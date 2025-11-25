@@ -5,6 +5,7 @@ import WeatherDashboard from "./weather-app/WeatherDashboard";
 import UserManagement from "./user-management/UserManagement";
 import Main from "./portfolio/Main";
 // import Main from "./user-dashboard/Main";
+import Todo from "./todo-app/Todo";
 
 export default function App() {
   
@@ -25,10 +26,13 @@ export default function App() {
     {/* <UserManagement/> */}
 
     {/* Portfolio Website 13-nov */}
-    <Main/>
+    {/* <Main/> */}
 
     {/* user dashboard 13-nov */}
     {/* <Main/> */}
+
+    {/* todo app  */}
+    <Todo/>
 
 
 
