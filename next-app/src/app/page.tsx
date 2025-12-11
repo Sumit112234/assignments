@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import Demo from "../../components/Meet";
 import Counter from "./Counter";
 import { useRouter } from "next/navigation";
+import Main from "./Main";
 
 export default function Home() {
   const router = useRouter();
@@ -11,11 +12,11 @@ export default function Home() {
     <div>
       <Navbar/>
       
-
-        <Counter initial={100} />
+       <Main/>
+        {/* <Counter initial={100} />
         <button onClick={() => router.push('/blogs')}>
           Explore Blogs
-        </button>
+        </button> */}
     </div>
   );
 }
