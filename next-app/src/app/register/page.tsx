@@ -215,68 +215,7 @@ export default function RegisterPage() {
           </button>
         </form>
 
-        <div style={styles.testSection}>
-          <h3 style={styles.testTitle}>Postman Testing Guide</h3>
-          
-          <div style={styles.testCase}>
-            <h4 style={styles.testCaseTitle}>Test Case 1: Invalid Request</h4>
-            <p><strong>Endpoint:</strong> POST http://localhost:3000/api/users</p>
-            <p><strong>Body (JSON):</strong></p>
-            <pre style={styles.code}>{`{
-  "name": "Jo",
-  "email": "invalid-email",
-  "password": "123",
-  "age": 15
-}`}</pre>
-            <p><strong>Expected Response (400):</strong></p>
-            <pre style={styles.code}>{`{
-  "success": false,
-  "errors": [
-    {
-      "field": "name",
-      "message": "Name must be at least 3 characters"
-    },
-    {
-      "field": "email",
-      "message": "Invalid email address"
-    },
-    {
-      "field": "password",
-      "message": "Password must be at least 6 characters"
-    },
-    {
-      "field": "age",
-      "message": "Age must be at least 18"
-    }
-  ]
-}`}</pre>
-            <p><strong>Why it fails:</strong> All fields violate validation rules.</p>
-          </div>
-
-          <div style={styles.testCase}>
-            <h4 style={styles.testCaseTitle}>Test Case 2: Valid Request</h4>
-            <p><strong>Endpoint:</strong> POST http://localhost:3000/api/users</p>
-            <p><strong>Body (JSON):</strong></p>
-            <pre style={styles.code}>{`{
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "securepass123",
-  "age": 25
-}`}</pre>
-            <p><strong>Expected Response (200):</strong></p>
-            <pre style={styles.code}>{`{
-  "success": true,
-  "message": "User registered successfully",
-  "data": {
-    "name": "John Doe",
-    "email": "john@example.com",
-    "password": "securepass123",
-    "age": 25
-  }
-}`}</pre>
-            <p><strong>Why it passes:</strong> All fields meet validation requirements.</p>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
